@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Pacifico&family=Patrick+Hand&family=Poppins:wght@200&family=Roboto:ital,wght@0,300;0,400;1,300&family=Tangerine&display=swap');
+body{
+   background-color:black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+#Atm{
+    background-image: linear-gradient(to top, rgb(12 52 80) 70%,  #e6e6e7 20%); 
+    width:500px;
+    height:260px;
+    border-radius:10px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+.atm-card-text{
+    padding: 10px;
+    color: #0c3450;
+    letter-spacing: 6px;
+    font-family: 'Roboto', sans-serif;
+}
+.circle1,.circle2{
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    display: inline-block;
+}
+.circle1{
+    background-color: #dd222a;
+    position: absolute;
+    bottom: 28px;
+    right:50px;
+}
+.circle2{
+    background-color: #f99d25;
+    position: absolute;
+    bottom: 28px;
+    right: 14px;
+}
+.text-master-card{
+    position: absolute;
+    bottom: 3px;
+    right: 20px; 
+}
+.atm-owner{
+    position: absolute;
+    bottom: 0;
+    padding: 9px;
+    letter-spacing: 2px;
+}
+.users-atm-numbers{
+    position: absolute;
+    top: 30%;
+    width:max-content;
+    left:50%;
+    font-size: 40px;
+    transform:translate(-50%, -50%);
+}
+.show-hide{
+    cursor: pointer;
+    position: absolute;
+    right: 22px;
+    top: 17%;
+    padding: 5px 12px 2px 6px;
+    border:none;
+    border-radius:16px;
+    background-color:green;
+}
+.eye_image{
+    width: 17px;
+    object-fit: cover;
+    position: absolute;
+    top: 10px;
+    left: 1px;
+}
+@media (max-width:500px){
+    #Atm{
+     width: 90vw;
+    }
+    .users-atm-numbers {
+        font-size: 8.3vw;
+    }
+}
