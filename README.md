@@ -1,4 +1,4 @@
-# Macksified Atm 
-## This is a js algorithm to hide and show the atm Numbers
+## Macksified Atm 
+### This is a js algorithm to hide and show the atm Numbers
 
-![Alt text](./images/?raw=true "Title")
+![Project Image](./images/projectImg.png?raw=true "Title")
